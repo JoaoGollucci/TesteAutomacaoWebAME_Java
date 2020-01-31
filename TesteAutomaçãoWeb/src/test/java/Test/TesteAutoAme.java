@@ -14,11 +14,14 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 public class TesteAutoAme {
 
     WebDriver navegador;
+    Random rand = new Random();
+    int id = rand.nextInt(9999);
 
     @Before
     public  void setup(){
@@ -34,15 +37,16 @@ public class TesteAutoAme {
     public void criarConta(){
 
         navegador.findElement(By.xpath("//a[@class='login']")).click();
+        navegador.findElement(By.xpath("//input[@id='email_create']")).sendKeys("teste"+Integer.toString(id)+"@ame.com.br");
+        navegador.findElement(By.xpath("//button[@id='SubmitCreate']")).click();
 
-        //navegador.findElement(By.name("vivo_login_username")).sendKeys("034.011.518-19");
+        
 
-        //navegador.findElement(By.name("vivo_login_password")).sendKeys("110695");
 
     }
 
     @After
     public void tearDown(){
-       //navegador.quit();
+       navegador.quit();
     }
 }
