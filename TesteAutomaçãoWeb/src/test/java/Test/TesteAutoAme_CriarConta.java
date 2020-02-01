@@ -18,7 +18,7 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-public class TesteAutoAme {
+public class TesteAutoAme_CriarConta {
 
     WebDriver navegador;
     Random rand = new Random();
@@ -71,8 +71,8 @@ public class TesteAutoAme {
 
         navegador.findElement(By.xpath("//button[@id='submitAccount']")).click();
 
+        //Validar que acessou a página "MY ACCOUNT"
         String validar = navegador.findElement(By.xpath("//h1")).getText();
-        System.out.println(validar);
         assertEquals("MY ACCOUNT", validar);
 
     }

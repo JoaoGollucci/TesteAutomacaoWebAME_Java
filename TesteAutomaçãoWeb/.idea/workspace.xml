@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="365abd8c-74dc-494d-8312-23ff10fc8958" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test/TesteAutoAme_EmailBranco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test/TesteAutoAme_EmailInválido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test/TesteAutoAme_LoginSucesso.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test/TesteAutoAme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/TesteAutoAme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/TesteAutoAme.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test/TesteAutoAme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/TesteAutoAme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/TesteAutoAme_CriarConta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/TesteAutoAme.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,64 +46,23 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.TesteAutoAme.criarConta">
-    <configuration name="TestPBI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TesteAutomaçãoWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TestPBI" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPBI.baixar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TesteAutomaçãoWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TestPBI" />
-      <option name="METHOD_NAME" value="baixar" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteAutoAme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TesteAutomaçãoWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TesteAutoAme" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteAutoAme.criarConta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TesteAutoAme_EmailBranco.emailInvalido">
+    <configuration name="TesteAutoAme_CriarConta.criarConta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TesteAutomaçãoWeb" />
       <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TesteAutoAme" />
+      <option name="MAIN_CLASS_NAME" value="Test.TesteAutoAme_CriarConta" />
       <option name="METHOD_NAME" value="criarConta" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteAutoAme.testeWeb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TesteAutoAme_CriarConta.testeWeb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TesteAutomaçãoWeb" />
       <extension name="coverage">
         <pattern>
@@ -110,67 +71,50 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TesteAutoAme" />
+      <option name="MAIN_CLASS_NAME" value="Test.TesteAutoAme_CriarConta" />
       <option name="METHOD_NAME" value="testeWeb" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration name="TesteAutoAme_EmailBranco.emailInvalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TesteAutomaçãoWeb" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TesteAutoAme_EmailBranco" />
+      <option name="METHOD_NAME" value="emailInvalido" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration name="TesteAutoAme_EmailInválido.emailInvalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TesteAutomaçãoWeb" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TesteAutoAme_EmailInválido" />
+      <option name="METHOD_NAME" value="emailInvalido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteAutoAme_LoginSucesso.loginSucesso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TesteAutomaçãoWeb" />
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TesteAutoAme_LoginSucesso" />
+      <option name="METHOD_NAME" value="loginSucesso" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TesteAutoAme.criarConta" />
-        <item itemvalue="JUnit.TesteAutoAme.testeWeb" />
-        <item itemvalue="JUnit.TestPBI.baixar" />
-        <item itemvalue="JUnit.TestPBI" />
-        <item itemvalue="JUnit.TesteAutoAme" />
+        <item itemvalue="JUnit.TesteAutoAme_EmailBranco.emailInvalido" />
+        <item itemvalue="JUnit.TesteAutoAme_EmailInválido.emailInvalido" />
+        <item itemvalue="JUnit.TesteAutoAme_LoginSucesso.loginSucesso" />
+        <item itemvalue="JUnit.TesteAutoAme_CriarConta.criarConta" />
+        <item itemvalue="JUnit.TesteAutoAme_CriarConta.testeWeb" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +143,7 @@
       <workItem from="1580432747942" duration="739000" />
       <workItem from="1580433708600" duration="61000" />
       <workItem from="1580434037614" duration="723000" />
+      <workItem from="1580566451158" duration="2688000" />
     </task>
     <servers />
   </component>
@@ -214,26 +159,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575483059840" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1580506033155">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1580569110112">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580506033155" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580434762127" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1580506033155">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580569110112" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1580569110111">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580506033155" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580434762126" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1580506033155">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580569110111" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1580569110111">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580506033155" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580434762126" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1580506033155">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580569110111" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1580569110111">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580506033155" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580434762126" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580569110111" />
     <state x="277" y="54" key="SettingsEditor" timestamp="1580504517482">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
